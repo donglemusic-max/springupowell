@@ -4,7 +4,7 @@ import {
   PieChart, Pie, Cell, Legend, CartesianGrid
 } from "recharts";
 
-const GAS_URL = "YOUR_GAS_WEB_APP_URL"; // ⚠️ 본인의 배포 URL로 변경하세요.
+const GAS_URL = "https://script.google.com/macros/s/AKfycbyQXtuQJkm0nv65FshEzuUDGZVRo2DbN-uHl-JOv99FmfLMB2FRW2C2ImCA0xGPMaQr/exec"; // ⚠️ 본인의 배포 URL로 변경하세요.
 const COLORS = ["#4A90E2", "#50E3C2", "#F5A623", "#D0021B", "#9013FE", "#7ED321", "#f368e0", "#ff9f43"];
 
 export default function App() {
