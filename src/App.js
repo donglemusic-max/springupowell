@@ -3,7 +3,7 @@ import {
   PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend 
 } from "recharts";
 
-const GAS_URL = "https://script.google.com/macros/s/AKfycbwGEvgRwmjzMtPK2WqrmkgJvhUAJMK5qYfJYNfKETKwmtU3rlL5xxRl_T422zFzMvu3/exec"; // ⚠️ 본인의 배포 URL로 변경하세요.
+const GAS_URL = "https://script.google.com/macros/s/AKfycbyBgEG19Wg5quMV-kie6kGMvcLLnf7MG-Kn9APsWgDq7QwBXogr-SjXqZfYDbcC8WRu/exec"; // ⚠️ 본인의 배포 URL로 변경하세요.
 const TOSS_BLUE = "#3182F6";
 const TOSS_BG = "#F2F4F6";
 const TOSS_CARD = "#FFFFFF";
