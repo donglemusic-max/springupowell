@@ -355,8 +355,8 @@ function AdvisorReport({ data }) {
       if (item['구분'] === '수입') totalIncome += amt;
       else {
         totalExpense += amt;
-        if (['십일조', '헌금', '컴패션', '후원', '기부'].includes(item['카테고리'])) givingTotal += amt;
-        if (['주거/통신', '관리비', '보험료', '대출 상환금', '주거이자'].includes(item['카테고리'])) fixedTotal += amt;
+        if ([''].includes(item['카테고리'])) givingTotal += amt;
+        if ([''].includes(item['카테고리'])) fixedTotal += amt;
       }
     });
     return { totalIncome, totalExpense, givingTotal, fixedTotal };
